@@ -1,3 +1,6 @@
+<?php
+    $server = 1;
+?>
 <!DOCTYPE html>
 <html lang="en" >
 <head>
@@ -15,11 +18,11 @@
 
 <div class="container-fluid">
     <div id="bg_img">
-        <img src="img/home/2.jpg" width="100%" height="100%" alt="">
+        <img src="img/home/<?php echo $server;?>.jpg" width="100%" height="100%" alt="">
     </div>
 
     <div class="row" id="box1">
-        <h1>Server #1</h1>
+        <h1>Server #<?php echo $server;?></h1>
     </div>
 
 </div>
